@@ -86,5 +86,9 @@ wilcox_test <- results1 %>%
   rstatix:: wilcox_test(results_c ~ fish_group)
 ### p value is less than 0.05 -> there's a weak evidence of a difference between control and recovery group
 
+
+library (usethis)
 usethis::create_github_token()
 gitcreds::gitcreds_set() 
+usethis::use_github()
+
